@@ -97,12 +97,13 @@ li{
  margin-top: -20%;
 }
 .footer{
-    display: inline-flex;
-    background-color: azure;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgb(145, 206, 206);
     gap: 415px;
 }
-.footer1,.footer2,.footer3,.footer4{
-    font-size: 20px;}
+/* .footer1,.footer2,.footer3,.footer4{
+    font-size: 20px;} */
 @media only screen and (max-width: 768px) {
     body {
       background-color: lightblue;
@@ -140,14 +141,29 @@ li{
 
      }
      #img2{
-        height:250px ;
+        width:150px ;
         margin-left: -60%;
         margin-top: 100px;
 
      }
      #img4{
         width: 200px;
-        margin-left:-20%;
+        margin-left:-50%;
+        margin-top:-100px;
      }
+     .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: rgb(145, 206, 206);
+     }
+     .lol{
+        width: 70px;
+        margin-left: -100px;
+     }
+     .non{
+        margin-left: -60px;
+        width: 300px;
+     }
+    
 
   }
